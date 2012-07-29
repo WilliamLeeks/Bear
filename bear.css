@@ -1,0 +1,71 @@
+/* 
+
+B E A R
+   
+For Super Simple Responsive Content
+By William Leeks - http://williamleeks.com 
+
+*/
+
+.mama-bear {
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	min-width: 640px;
+}
+
+/* Clear Floats - Thanks to: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.mama-bear:before,
+.mama-bear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.mama-bear:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ 
+.mama-bear {
+    *zoom: 1;
+}
+
+.baby-bear {
+	float: left;
+	width: 46.875%;
+	min-width: 300px;
+	margin-right: 6.25%;
+}
+	.baby-bear + .baby-bear {
+		margin-right: 0;
+	}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+
+SMALLER SCREENS
+
+*/
+
+@media only screen and (max-width: 719px) {
+
+.mama-bear{
+	min-width: 280px;
+	width: 88.88%;
+}
+.baby-bear {
+	float: none;
+	min-width: 280px;
+	width: 100%;
+}
+
+}
