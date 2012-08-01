@@ -39,10 +39,9 @@ By William Leeks - http://williamleeks.com
 	float: left;
 	width: 46.875%;
 	min-width: 300px;
-	margin-right: 6.25%;
 }
 	.baby-bear + .baby-bear {
-		margin-right: 0;
+		float: right;
 	}
 
 img {
