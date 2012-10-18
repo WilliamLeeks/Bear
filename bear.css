@@ -58,12 +58,12 @@ SMALLER SCREENS
 @media only screen and (max-width: 719px) {
 
 .mama-bear{
-	min-width: 280px;
+	min-width: 100px;
 	width: 88.88%;
 }
 .baby-bear {
 	float: none;
-	min-width: 280px;
+	min-width: 100px;
 	width: 100%;
 }
 
