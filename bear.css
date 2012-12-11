@@ -12,6 +12,7 @@ By William Leeks - http://williamleeks.com
 	margin-right: auto;
 	width: 55%;
 	min-width: 640px;
+	max-width: 760px;
 }
 
 /* Clear Floats - Thanks to: http://nicolasgallagher.com/micro-clearfix-hack/ */
