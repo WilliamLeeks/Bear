@@ -1,4 +1,5 @@
 # Bear
+
 For Super Simple Responsive Content
 
 For more information, go to http://williamleeks.com/bear
