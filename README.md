@@ -27,4 +27,4 @@ I'd love to hear if you think Bear is useful, or how it can be improved. As per 
 ## Copyright / License
 Copyright 2014 William Leeks
 
-CC BY License (http://creativecommons.org/licenses/by/3.0/)
+CC BY License (http://creativecommons.org/licenses/by/4.0/)
