@@ -8,18 +8,22 @@ For more information, go to http://williamleeks.com/bear
 
 Bear is designed for simplicity of use. First of all, link to bear.css in your HTML's head:
 
-```<link rel="stylesheet" href="path/to/css/bear.css">```
+``` html
+<link rel="stylesheet" href="path/to/css/bear.css">
+```
 
 Then, simply utilise these classes in your HTML's body:
 
-    <div class="mama-bear">
-    	<div class="baby-bear">
-        	Mind-blowing content.
-  		</div>
-  		<div class="baby-bear">
-        	Yet more genius.
-  		</div>
-    </div>
+``` html
+<div class="mama-bear">
+	<div class="baby-bear">
+    	Mind-blowing content.
+  	</div>
+  	<div class="baby-bear">
+    	Yet more genius.
+  	</div>
+</div>
+```
 
 ## Contribute / Feedback
 
